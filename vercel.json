@@ -1,4 +1,4 @@
 {
   "installCommand": "PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 NPM_CONFIG_PRODUCTION=false npm install",
-  "buildCommand": "node scripts/with-app-env.mjs vite build"
+  "buildCommand": "node scripts/with-app-env.mjs ./node_modules/.bin/vite build"
 }
